@@ -1,0 +1,10 @@
+#sidebar{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(145, 9, 199) , rgb(174, 0, 255));
+}
+
+#main{
+    height: auto;
+    min-height: 100vh;
+}
+

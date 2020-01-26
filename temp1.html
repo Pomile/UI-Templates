@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/layout1.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/logo.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/filter.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/theme.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style1/dataTable.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-2 bg-primary d-none d-lg-block d-xl-block fixed-bottom fixed-top" id="sidebar">
+                <div class="logo mx-auto mt-3 mb-2" id="logo">
+                    <div class="w-100 bg-light logo-holder pl-2 pt-1">
+                        <img src="images/logo.png"/>
+                    </div>
+                </div>
+                <p class="text-center text-white">Admin</p>
+                <hr class=""/>
+                <nav class="navbar">
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white nav-hov" href="#"><i class="far fa-question-circle align-middle"></i><span class=" align-middle p-3 small">Dashboard</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white nav-hov active" href="#"><i class="far fa-bell align-middle"></i><span class="align-middle p-3 small">Candidate</span></a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link text-white nav-hov" href="#">
+                                        <i class="far fa-bell align-middle"></i><span class="align-middle p-3 small">Camps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+            </div>
+            <div class="col-lg-10 col-sm-12 offset-lg-2 " id="main">
+                    <header class="row header">
+                        <div class="col-2 pl-5"><h2 class="pt-2 text-white">Candidate</h2></div>
+                        <div class="col-2 d-sm-block d-md-block d-lg-none d-xl-none">
+                            <button class="navbar-toggler mt-3 text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="col-4 pr-0 pl-0 d-none d-lg-block d-xl-block">
+                            <nav class="navbar navbar-expand-sm">
+                            <!-- Links -->
+                            <ul class="navbar-nav ml-auto ">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#"><i class="far fa-question-circle"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><i class="far fa-bell"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        </div>
+                    </header>
+                    <div class="row">
+                        
+                        <div class="filter-container col-12 light-purple pt-3 pl-5">
+                        
+                                <form class="filter mt-4">
+                                    <div class="filter-item-1">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-primary btn-sm">Filters</button>
+                                            <button type="button" class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Tablet</a>
+                                                <a class="dropdown-item" href="#">Smartphone</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-item">
+                                        <select name="family">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-item">
+                                        <select name="family">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-item">
+                                        <select name="family">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-item">
+                                        <select name="family">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-item">
+                                        <select name="family">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-item">
+                                        <input type="date" id="date" name="date" />
+                                    </div>
+                                    <div class="filter-item">
+
+                                    </div>
+
+                                </form>
+                                
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <div class="data-tab table-responsive col-11 pl-5 overlap-top-row">
+                            <div class="clearfix bg-light pt-2 pb-2 rounded">
+                                <div class="btn-group bg-light float-left ml-2">
+                                     <button type="button" class="btn btn-primary">Filters</button>
+                                      <button type="button" class="btn btn-primary ml-5 float-left">Filters</button>
+                                </div>
+                                <div class="btn-group bg-light float-right mr-2">
+                                      <button type="button" class="btn btn-primary float-lg-right">Filters</button>
+                                </div>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Email</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
